@@ -14,7 +14,12 @@ Watch version of AAPS allows you to:
 
 ### Building Wear OS version of AAPS 
 
-To build Wear OS version of AAPS you needed to select the build variant "fullRelease" when [building the APK](../Installing-AndroidAPS/Building-APK.md) (or "pumpRelease" will allow you to just remote control the pump without looping). 
+To build Wear OS version of AAPS you needed to select the build variant "fullRelease" when [building the APK](../Installing-AndroidAPS/Building-APK.md) (or "pumpRelease" will allow you to just remote control the pump without looping).
+
+NB! Remember to select the wear module when you build the signed APK:
+
+![image](https://user-images.githubusercontent.com/23278852/148393804-040594a1-9471-4ae3-87bb-5d3af56548ed.png)
+
 
 From March 2021 you need to sideload AAPS onto the watch, it is no longer accessible via the watch's Google Play Store.  You can sideload using [Wear Installer](https://youtu.be/8HsfWPTFGQI) which you will need to install on both your watch and phone.  Once you have selected AndroidAPS as your app to upload wear version onto the watch you will be able to use watchfaces and complications and the AAPS controls.
 
